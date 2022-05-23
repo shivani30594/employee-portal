@@ -176,7 +176,7 @@ export default function BasicTabs() {
               </Grid>
             </Grid>
           </Card>
-          <Container disableGutters className='btn_wrapper'>
+          <Container disableGutters className='btn_wrapper' sx={{display: "flex"}}>
             <Typography component="p" variant="p" sx={{marginRight: "10px", textAlign: {xs: "left", md:"right"}}}>
               Last Saved by Super Admin on 2022-05-21T05:07:45.804
             </Typography>
